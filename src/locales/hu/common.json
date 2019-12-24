@@ -15,7 +15,7 @@
     "search": "Keresés",
     "contactUs": "Lépj velünk kapcsolatba",
     "device": "Eszköz",
-    "cryptoAsset": "Kripto eszközök",
+    "cryptoAsset": "Kriptovaluták",
     "skip": "Kihagyás",
     "noCryptoFound": "Nem található kripto",
     "needHelp": "Segítségre van szükséged?",
@@ -51,212 +51,212 @@
   },
   "errors": {
     "AccountNameRequired": {
-      "title": "An account name is required",
-      "description": "Please provide an account name"
+      "title": "Egy számlanév szükséges",
+      "description": "Kérlek adj nevet a számlának"
     },
     "BluetoothRequired": {
-      "title": "Oops, Bluetooth disabled",
-      "description": "Please enable Bluetooth in your phone Settings. ({{state}} state)"
+      "title": "Hoppá, Bluetooth kikapcsolva",
+      "description": "Kérlek engedélyezd a Bluetooth-ot a telefonod beállításaiban. ({{state}} state)"
     },
     "BtcUnmatchedApp": {
-      "title": "That's the wrong app",
-      "description": "Open the ‘{{managerAppName}}’ app on your device"
+      "title": "Ez a rossz alkalmazás",
+      "description": "Nyisd meg a(z) ‘{{managerAppName}}’ alkalmazást az eszközödön"
     },
     "CantOpenDevice": {
-      "title": "Sorry, connection failed",
-      "description": "Your Ledger device should be unlocked and in range when using Bluetooth"
+      "title": "Sajnáljuk, csatlakozás sikertelen",
+      "description": "A Ledger eszközöd feloldott állapotban, és Bluetoot hatótávolságon belül kell hogy legyen"
     },
     "CantScanQRCode": {
-      "title": "Couldn't scan this QR-code: auto-verification not supported by this address"
+      "title": "Nem sikerült beolvasni a QR-kódot: automatikus megerősítés nem támogatott ennél a címnél."
     },
     "DeviceAppVerifyNotSupported": {
-      "title": "Open Manager to update this App",
-      "description": "The app verification is not supported"
+      "title": "Nyisd meg az eszközkezelőt hogy frissítsd ezt az alkalmazást",
+      "description": "Az alkalmazás megerősítés nem támogatott"
     },
     "DeviceGenuineSocketEarlyClose": {
-      "title": "Sorry, try again (genuine-close)",
+      "title": "Sajnáljuk, próbáld meg újra (genuine-close)",
       "description": null
     },
     "DeviceHalted": {
-      "title": "Please restart your Ledger device and retry",
-      "description": "An unexpected error occurred, so please try again"
+      "title": "Kérlek indítsd újra a Ledger eszközöd, és próbáld meg újra",
+      "description": "Váratlan hiba történt, próbáld meg újra"
     },
     "DeviceNotGenuine": {
-      "title": "Possibly not genuine",
-      "description": "Request Ledger Support assistance."
+      "title": "Lehetséges, hogy nem eredeti",
+      "description": "Kérj segítséget a Ledger ügyféltámogatástól."
     },
     "DeviceNameInvalid": {
-      "title": "Please choose a device name without '{{invalidCharacters}}'"
+      "title": "Kérlek válassz egy nevet az eszközödnek, amiben nem szerepelnek: '{{invalidCharacters}}'"
     },
     "DeviceOnDashboardExpected": {
-      "title": "Return to Dashboard",
-      "description": "Please navigate back to Dashboard on your device"
+      "title": "Visszatérés a Főoldalra",
+      "description": "Kérlek lépj vissza a Főoldalra az eszközödön"
     },
     "DeviceSocketFail": {
-      "title": "Oops, try again",
-      "description": "Some connection failed, so please try again."
+      "title": "Hoppá, próbáld újra",
+      "description": "Csatlakozás sikertelen, ezért kérlek próbáld újra."
     },
     "DeviceSocketNoBulkStatus": {
-      "title": "Oops, try again",
-      "description": "Some connection failed, so please try again."
+      "title": "Hoppá, próbáld újra",
+      "description": "Csatlakozás sikertelen, ezért kérlek próbáld újra."
     },
     "DeviceSocketNoHandler": {
-      "title": "Oops, try again",
-      "description": "Some connection failed, so please try again."
+      "title": "Hoppá, próbáld újra",
+      "description": "Csatlakozás sikertelen, ezért kérlek próbáld újra."
     },
     "DisconnectedDevice": {
-      "title": "Oops, device disconnected",
-      "description": "The connection to the device was lost, please try again"
+      "title": "Hoppá, eszköz lecsatlakoztatva",
+      "description": "Az eszközhöz való kapcsolat megszűnt, kérlek próbáld újra"
     },
     "DisconnectedDeviceDuringOperation": {
-      "title": "Oops, device disconnected",
-      "description": "The connection to the device was lost during an operation, please try again"
+      "title": "Hoppá, eszköz lecsatlakoztatva",
+      "description": "Az eszközhöz való kapcsolat egy művelet során megszűnt, kérlek próbáld újra"
     },
     "ETHAddressNonEIP": {
-      "title": "Auto-verification not available: carefully verify the address",
+      "title": "Automatikus megerősítés nem lehetséges: körültekintően erősítsd meg a címet",
       "description": null
     },
     "EnpointConfig": {
-      "title": "Invalid endpoint",
-      "description": "Please provide a valid endpoint"
+      "title": "Érvénytelen végpont",
+      "description": "Kérlek adj meg egy érvényes végpontot"
     },
     "Touch ID Error": {
-      "title": "Biometric authentication failed",
-      "description": "Please use your password or reset the app"
+      "title": "A biometrikus azonosítás sikertelen",
+      "description": "Kérlek, használd a jelszavad, vagy indítsd újra az alkalmazást"
     },
     "Error": {
       "title": "{{message}}",
-      "description": "Something went wrong. Please retry or contact us."
+      "description": "Valami hiba történt. Kérlek próbáld újra, vagy lépj kapcsolatba velünk."
     },
     "FeeEstimationFailed": {
-      "title": "Sorry, fee estimation failed",
+      "title": "Sajnáljuk, a díj becslése sikertelen",
       "description": "Try setting a custom fee (status: {{status}})"
     },
     "FeeNotLoaded": {
-      "title": "Couldn’t load fee rates"
+      "title": "Nem sikerült betölteni a díjakat"
     },
     "FeeRequired": {
-      "title": "Fees are required"
+      "title": "Díjak szükségesek"
     },
     "FirmwareOrAppUpdateRequired": {
-      "title": "Firmware or app update required",
-      "description": "Please use the Manager to uninstall all apps and check if a firmware update is available before reinstalling them"
+      "title": "Szoftver vagy alkalmazásfrissítés szükséges",
+      "description": "Használd az Eszközkezelőt az összes alkalmazás eltávolításához, és ellenőrizd, van-e elérhető szoftverfrissítés, mielőtt újratelepítenéd őket"
     },
     "GenuineCheckFailed": {
-      "title": "Genuine check failed",
-      "description": "Something went wrong. Please try again or contact Ledger Support when in doubt."
+      "title": "Eredetiség ellenőrzése sikertelen",
+      "description": "Valami hiba történt. Kérlek, próbáld újra, vagy kétség esetén vedd fel a kapcsolatot a Ledger ügyféltámogatással."
     },
     "HardResetFail": {
-      "title": "Oops, could not reset",
-      "description": "Please retry or contact Ledger Support."
+      "title": "Hoppá, nem sikerült újraindítani",
+      "description": "Kérlek próbáld újra, vagy Vedd fel a kapcsolatot a Ledger ügyféltámogatással."
     },
     "InvalidAddress": {
-      "title": "This is not a valid {{currencyName}} address"
+      "title": "Ez nem egy valós {{currencyName}} cím"
     },
     "InvalidAddressBecauseDestinationIsAlsoSource": {
-      "title": "Destination and source accounts can't be the same"
+      "title": "A küldő és fogadó számla nem lehet azonos"
     },
     "InvalidRecipient": {
-      "title": "Invalid recipient"
+      "title": "Érvénytelen címzett"
     },
     "LatestMCUInstalledError": {
-      "title": "Oops, nothing to update",
-      "description": "Needlessly tried to update the device microcontroller. Contact Ledger Support if there's a problem with your device."
+      "title": "Hoppá, nincs frissítenivaló",
+      "description": "Feleslegesen megpróbáltad frissíteni az eszköz mikrovezérlőjét. Vedd fel a kapcsolatot a Ledger ügyfélszolgálatával, ha problémád van az eszközöddel."
     },
     "LedgerAPIError": {
-      "title": "Sorry, try again (API HTTP {{status}})",
-      "description": "Interacting with Ledger's API server went wrong. Please retry."
+      "title": "Sajnáljuk, próbáld újra (API HTTP {{status}})",
+      "description": "Hiba történt a Ledger API szerveréhez történő kapcsolódás közben. Kérlek próbáld újra."
     },
     "LedgerAPIErrorWithMessage": {
       "title": "{{message}}",
-      "description": "Please retry or contact Ledger Support."
+      "description": "Kérlek, próbáld újra, vagy vedd fel a kapcsolatot a Ledger ügyfélszolgálatával."
     },
     "LedgerAPINotAvailable": {
-      "title": "Sorry, {{currencyName}} services unavailable",
-      "description": "Please retry or contact Ledger Support."
+      "title": "Sajnáljuk, {{currencyName}} szolgáltatások nem érhetők el",
+      "description": "Kérlek próbáld újra, vagy fedd fel a kapcsolatot a Ledger ügyfélszolgálatával."
     },
     "ManagerAPIsFail": {
-      "title": "Oops, Manager services unavailable.",
-      "description": "Please check the network status."
+      "title": "Hoppá, Kezelő szolgáltatások nem érhetők el.",
+      "description": "Kérlek ellenőrizd a hálózat állapotát."
     },
     "ManagerAppAlreadyInstalled": {
-      "title": "Oops, that's already installed.",
-      "description": "Check your device to see which apps are already installed."
+      "title": "Hoppá, ez az alkalmazás már telepítve van.",
+      "description": "Ellenőrizd az eszközöd, hogy megtudd mely alkalmazások vannak már telepítve."
     },
     "ManagerAppRelyOnBTC": {
-      "title": "Bitcoin and Ethereum apps required",
-      "description": "Install the latest Bitcoin and Ethereum apps first."
+      "title": "Bitcoin és Ethereum alkalmazások szükségesek",
+      "description": "Telepítsd a legfrissebb Bitcoin és Ethereum alkalmazásokat először."
     },
     "ManagerDeviceLocked": {
-      "title": "Please unlock your device",
-      "description": "Your device was locked. Please unlock it."
+      "title": "Kérlek old fel az eszközöd",
+      "description": "Az eszközöd zárolva. Kérlek old fel."
     },
     "ManagerNotEnoughSpace": {
-      "title": "Sorry, not enough storage left",
-      "description": "Please uninstall some apps to make space. This will not affect your crypto assets."
+      "title": "Sajnáljuk, nincs elég tárhely",
+      "description": "Kérlek törölj pár alkalmazást, hogy helyet szabadíts fel. Ez nem fogja érinteni a rajtuk tárolt kriptóid."
     },
     "ManagerUninstallBTCDep": {
-      "title": "Sorry, this app is required",
-      "description": "Uninstall the Bitcoin or Ethereum app last."
+      "title": "Sajnáljuk, ez az alkalmazás szükséges",
+      "description": "A Bitcoin és Ethereum alkalmazásokat töröld utoljára."
     },
     "NetworkDown": {
-      "title": "Oops, internet seems down",
-      "description": "Please check your internet connection."
+      "title": "Hoppá, úgy tűnik, nincs internetkapcsolat",
+      "description": "Kérlek ellenőrizd az internetkapcsolatod."
     },
     "NoAddressesFound": {
-      "title": "Sorry, no accounts found",
-      "description": "Something went wrong with address calculation, try again or contact Ledger Support."
+      "title": "Sajnáljuk, nem találhatók számlák",
+      "description": "Valami hiba történt a cím kiszámításakor, próbáld újra vagy vedd fel a kapcsolatot a Ledger ügyféltámogatással."
     },
     "NotEnoughBalance": {
-      "title": "Oops, insufficient balance",
-      "description": "Make sure the account to debit has sufficient balance"
+      "title": "Hoppá, fedezethiány",
+      "description": "Győződj meg róla, hogy a terhelni kívánt számla egyenlege megfelelő"
     },
     "NotEnoughBalanceToDelegate": {
-      "title": "Insufficient balance to delegate"
+      "title": "Nincs elég egyenleged az átruházáshoz"
     },
     "NotEnoughBalanceInParentAccount": {
-      "title": "Insufficient balance in parent account"
+      "title": "Nincs elég egyenleg a főszámlán"
     },
     "NotEnoughSpendableBalance": {
-      "title": "Insufficient balance for this operation"
+      "title": "Nincs elegendő egyenleg ehhez a művelethez"
     },
     "NotEnoughBalanceBecauseDestinationNotCreated": {
-      "title": "Minimum of {{minimalAmount}} required to activate recipient address"
+      "title": "Minimum {{minimalAmount}} szükséges a fogadó cím aktiválásához"
     },
     "PairingFailed": {
-      "title": "Pairing unsuccessful",
-      "description": "Please try again or contact Ledger Support when in doubt."
+      "title": "Párosítás sikertelen",
+      "description": "Kérlek próbáld újra, vagy kétség esetén vedd fel a kapcsolatot a Ledger ügyfélszolgálatával."
     },
     "PasswordIncorrect": {
-      "title": "The password you entered is incorrect",
-      "description": "Please try again"
+      "title": "A beírt jelszó helytelen",
+      "description": "Kérlek próbáld újra"
     },
     "PasswordsDontMatch": {
-      "title": "The password you entered does not match",
-      "description": "Please try again"
+      "title": "A beírt jelszó nem egyezik",
+      "description": "Kérlek próbáld újra"
     },
     "SelectExchangesLoadError": {
-      "title": "Unable to load",
-      "description": "Can't load the exchanges"
+      "title": "Nem lehet betölteni",
+      "description": "Nem lehet betölteni a váltókat"
     },
     "SyncError": {
-      "title": "Synchronization error",
+      "title": "Szinkronizációs hiba",
       "description": "Something went wrong with the blockchains synchronization.  Please retry or contact us."
     },
     "TimeoutError": {
-      "title": "Oops, a time out occurred",
+      "title": "Hoppá, a time out occurred",
       "description": "It took too long for the server to respond."
     },
     "TimeoutTagged": {
-      "title": "Oops, a time out occurred ({{tag}})",
+      "title": "Hoppá, a time out occurred ({{tag}})",
       "description": "It took too long for the server to respond."
     },
     "TransportError": {
-      "title": "Something went wrong. Please reconnect your device.",
+      "title": "Valami hiba történt. Please reconnect your device.",
       "description": "{{message}}"
     },
     "TransportStatusError": {
-      "title": "Something went wrong. Please reconnect your device.",
+      "title": "Valami hiba történt. Please reconnect your device.",
       "description": "{{message}}"
     },
     "UpdateYourApp": {
@@ -284,15 +284,15 @@
       "description": "Please retry or contact Ledger Support in case of doubt."
     },
     "WebsocketConnectionError": {
-      "title": "Sorry, connection failed",
+      "title": "Sajnáljuk, connection failed",
       "description": "Please try again with a better network connection (websocket error)"
     },
     "WebsocketConnectionFailed": {
-      "title": "Sorry, connection failed",
+      "title": "Sajnáljuk, connection failed",
       "description": "Please try again with a better network connection (websocket failed)"
     },
     "WrongDeviceForAccount": {
-      "title": "Oops, wrong device for ‘{{accountName}}’.",
+      "title": "Hoppá, wrong device for ‘{{accountName}}’.",
       "description": "The connected device is not associated with the account you selected. Please connect the right device."
     },
     "UnexpectedBootloader": {
@@ -318,11 +318,11 @@
     },
     "generic": {
       "title": "{{message}}",
-      "description": "Something went wrong. Please retry or contact us."
+      "description": "Valami hiba történt. Please retry or contact us."
     }
   },
   "bluetooth": {
-    "required": "Oops, Bluetooth disabled",
+    "required": "Hoppá, Bluetooth disabled",
     "locationRequiredTitle": "Location is required for Bluetooth LE",
     "locationRequiredMessage": "On Android, location permission is required to be able to list Bluetooth LE devices.",
     "checkEnabled": "Please enable Bluetooth in your phone settings"
@@ -1117,7 +1117,7 @@
       "desc": "Please make sure your {{productName}} is unlocked with Bluetooth enabled"
     },
     "ScanningTimeout": {
-      "title": "Oops, no device found",
+      "title": "Hoppá, no device found",
       "desc": "Please make sure your {{productName}} is unlocked with Bluetooth enabled"
     },
     "bypassGenuine": "Use anyway",
